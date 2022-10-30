@@ -1,0 +1,106 @@
+h1{
+    $color: rgb(16, 126, 44);
+    color: $color;
+
+    $font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: $font-family;
+
+    $heading-border: 5px double rgb(255, 0, 170);
+    border: $heading-border;
+}
+
+
+h2{
+    $Primary-color: red;
+    color: $Primary-color;
+}
+
+
+
+body{
+    $primary-background-image: url("https://media.discordapp.net/attachments/1015035818643038280/1020102878611906681/notebook-paper-background-design-template-c114c2ed2104bd8b815cf7fbb2f34f44_screen.jpeg"); 
+    background-image: $primary-background-image;
+   
+}
+
+.col-sm-6{
+$myBackground-color:khaki;
+background-color: $myBackground-color;
+
+$column-color: rgb(7, 149,139 );
+color: $column-color;
+
+$myMaxWidth:400px;
+max-width: $myMaxWidth;
+
+$myMinWidth: 100px;
+min-width: $myMinWidth;
+
+$myMinheight:200px;
+min-height: $myMinheight;
+
+$myMaxheight:1000px;
+max-height: $myMaxheight;
+
+$box-shadow:5px 5px gray;
+box-shadow: $box-shadow;
+
+$myPadding:30px;
+padding: $myPadding;
+
+$my-border: 1px solid black;
+border: $my-border;
+
+margin: auto;
+
+font-weight: bold;
+
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: khaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li{
+        display: inline;
+        margin-right: 25px;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+    }
+    a{
+        font-family: Impact;
+        color: rgb(244, 14, 14 );
+        font-size: 1.5em;
+        &:hover{
+            color: blueviolet;
+            margin: +5px;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+    }
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+.buttons{
+    li{
+        display: inline-block;
+    }
+}
+ .btn-primary{
+    $button-margin:1.5em;
+    margin: $button-margin;
+ }   
+
+ .form-group{
+    $form-margin:1.5em;
+    margin:$form-margin ;
+ }
