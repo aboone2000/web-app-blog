@@ -1,0 +1,100 @@
+h1 {
+    color:rgb(16, 126, 44); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 5px double rgb(255, 0, 170);
+}
+
+li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form-group {
+    margin: 1.5em;
+}
+
+.btn-primary {
+    margin: 1.5em;
+}
+
+nav {
+
+    width: 100%;
+  height: 80px;
+  background-color: khaki;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.buttons li {
+    display: inline-block;
+}
+
+nav a {
+    font-family: Impact;
+    color: rgb(244, 14, 14);
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: blueviolet;
+    margin: +5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+h2 {
+    color: rgb(247, 22, 45);
+}
+
+body {
+    background-image: url("https://media.discordapp.net/attachments/1015035818643038280/1020102878611906681/notebook-paper-background-design-template-c114c2ed2104bd8b815cf7fbb2f34f44_screen.jpeg");
+    text-align: center;
+    margin: 10px;
+}
+
+.col-sm-6 {
+    background-color: khaki;
+    border: 1px solid black;
+    padding: 30px;
+    box-shadow: 5px 5px gray;
+    color: rgb(7, 149, 139);
+    font-weight: bold;
+    margin: auto;
+    min-width: 100px;
+    max-width: 400px;
+    min-height: 200px;
+    max-height: 1000px;
+    
+}
+
+a {
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+
